@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BudgetMaster - Étudiant UPHF</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+<body>
+    <div class="app-container">
+        <header>
+            <h1>💰 BudgetMaster</h1>
+            <p>Gère tes finances en temps réel.</p>
+        </header>
+
+        <main>
+            <div class="input-group">
+                <h3>📥 Revenus</h3>
+                <input type="number" id="income" placeholder="Bourse, Job, APL..." oninput="updateBudget()">
+            </div>
+
+            <div class="input-group">
+                <h3>📤 Dépenses</h3>
+                <input type="number" id="rent" placeholder="Loyer" oninput="updateBudget()">
+                <input type="number" id="food" placeholder="Courses" oninput="updateBudget()">
+                <input type="number" id="fun" placeholder="Loisirs" oninput="updateBudget()">
+            </div>
+
+            <div class="result-card">
+                <h3>Reste à vivre :</h3>
+                <div id="balance">0.00 €</div>
+                <p id="advice"></p>
+                <button onclick="genererPDF()" class="btn-pdf">Télécharger le bilan PDF 📄</button>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

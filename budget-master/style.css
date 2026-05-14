@@ -1,0 +1,153 @@
+body {
+    font-family: 'Inter', -apple-system, sans-serif;
+    background-color: #f1f5f9;
+    color: #0f172a;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.app-container {
+    background: white;body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.app-container {
+    background: white;
+    width: 100%;
+    max-width: 400px;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+h1 { color: #1a73e8; margin: 0; }
+h3 { font-size: 1rem; color: #5f6368; margin-top: 1.5rem; }
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #dadce0;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.result-card {
+    background: #e8f0fe;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+#balance {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #188038;
+}
+
+.btn-pdf {
+    width: 100%;
+    padding: 12px;
+    background: #1a73e8;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin-top: 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn-pdf:hover { background: #1557b0; }
+    width: 100%;
+    max-width: 420px;
+    padding: 2rem;
+    border-radius: 24px;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+}
+
+header h1 { color: #2563eb; margin: 0; font-size: 1.8rem; }
+header p { font-size: 0.85rem; color: #64748b; margin-top: 5px; }
+
+.input-group { margin-top: 1.5rem; }
+h3 { font-size: 1.1rem; border-bottom: 2px solid #f1f5f9; padding-bottom: 5px; }
+
+.field { margin-bottom: 1rem; }
+label { display: block; font-size: 0.85rem; font-weight: 600; margin-bottom: 5px; color: #475569; }
+
+input {
+    width: 100%;
+    padding: 0.8rem;
+    border: 2px solid #e2e8f0;
+    border-radius: 12px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+input:focus { outline: none; border-color: #2563eb; }
+
+.result-card {
+    background: #f8fafc;
+    padding: 1.5rem;
+    border-radius: 16px;
+    text-align: center;
+    margin-top: 1.5rem;
+    border: 1px solid #e2e8f0;
+}
+
+#balance { font-size: 2.5rem; font-weight: 900; color: #16a34a; margin: 5px 0; }
+#advice { font-size: 0.9rem; font-weight: 500; }
+
+.btn-share {
+    width: 100%;
+    padding: 12px;
+    background-color: #25d366;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* STYLE DE LA ZONE BUSINESS */
+.business-card {
+    margin-top: 2rem;
+    padding: 1.2rem;
+    background: #fff;
+    border: 2px solid #2563eb;
+    border-radius: 16px;
+    text-align: center;
+}
+
+.service-item h4 { margin: 0; color: #1e293b; }
+.service-item p { font-size: 0.8rem; color: #64748b; margin: 8px 0; }
+
+.divider { height: 1px; background: #e2e8f0; margin: 15px 0; }
+
+.btn-buy {
+    display: block;
+    background: #2563eb;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.btn-contact {
+    display: block;
+    background: #f1f5f9;
+    color: #2563eb;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: bold;
+    border: 1px solid #2563eb;
+}
