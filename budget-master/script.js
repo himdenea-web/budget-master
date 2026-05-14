@@ -1,4 +1,4 @@
-// Charger les données sauvegardées
+
 window.onload = () => {
     const saved = JSON.parse(localStorage.getItem('budgetData'));
     if (saved) {
@@ -18,7 +18,7 @@ function updateBudget() {
 
     const balance = income - (rent + food + fun);
     
-    // Sauvegarde auto
+    
     localStorage.setItem('budgetData', JSON.stringify({income, rent, food, fun}));
 
     const display = document.getElementById('balance');
